@@ -34,36 +34,53 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repo](https://github.com/sedaryildirim/3-column-preview-card-component)
+- Live Site URL: [Live Site](https://sedaryildirim.github.io/3-column-preview-card-component/)
 
 ## My process
 
+This challenge went very quickly, learned a lot from previous 2 challenges - start with mobile first at 375px, and moved quickly to responsive at 1440px. Paid closer attention to detail with errors/bugs encountered last time. Overall took around 45-60mins i beleive.
+
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5
 - CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
+- How to make custom CSS Variables with :root and assign custom --cc and --ff 
+- How to use @media to make site responsive
+- Mobile first workflow
+- Pay closer attention to mockups/preview images
+- Identifed bugs encountered from previous challenges easier
+- Easier trouble shooting
+
 ### Continued development
+
+- Improve on HTML layout / class naming conventions
+- Improve on CSS custom properties
+- Improve using @media
+- Improve using flexbox and grid
+- Learn more about grid
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Flexbox Froggy](https://flexboxfroggy.com/) - Flexbox Tutorial
+- [Kevin Powell](https://www.youtube.com/KevinPowell) - HTML & CSS tutorirals
+- [Web Dev Simplified](https://www.youtube.com/webdevsimplified) - @media & CSS tutorials
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Github - [Sedar Yildirim](https://github.com/sedaryildirim)
+- Frontend Mentor - [@sedaryildirim](https://www.frontendmentor.io/profile/sedaryildirim)
 
 ## Acknowledgments
+
+[Frontendmentor.io](https://www.frontendmentor.io/)
+
+[Flexboxfroggy](https://flexboxfroggy.com/)
+
+[Kevin Powell](https://www.youtube.com/KevinPowell)
