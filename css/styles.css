@@ -1,0 +1,72 @@
+:root {
+    --cc-top-card-color: hsl(31, 77%, 52%);
+    --cc-middle-card-color: hsl(184, 100%, 22%);
+    --cc-bottom-card-color: hsl(179, 100%, 13%);
+    
+    --cc-paragraphs-color: hsla(0, 0%, 100%, 0.75);
+    --cc-bgs-h1s-buttons-color: hsl(0, 0%, 95%);
+    
+    --ff-h1-font: 'Big Shoulders Display', sans-serif;
+    --ff-p-font: 'Lexend Deca', sans-serif; /* font-size: 0.9375em */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cc-bgs-h1s-buttons-color);
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 35px;
+}
+
+.top-card {
+    background-color: var(--cc-top-card-color);
+    padding: 40px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.middle-card {
+    background-color: var(--cc-middle-card-color);
+    padding: 40px;
+}
+
+.bottom-card {
+    background-color: var(--cc-bottom-card-color);
+    padding: 40px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.button {
+    font-family: var(--ff-p-font);
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+}
+
+.button-top {
+    color: var(--cc-top-card-color);
+}
+
+.button-middle {
+    color: var(--cc-middle-card-color);
+}
+
+.button-bottom {
+    color: var(--cc-bottom-card-color);
+}
+
+h1 {
+    font-family: var(--ff-h1-font);
+    color: var(--cc-bgs-h1s-buttons-color);
+}
+
+p {
+    font-family: var(--ff-p-font);
+    font-size: 0.9375em;
+    color: var(--cc-paragraphs-color);
+    padding-bottom: 10px;
+}
