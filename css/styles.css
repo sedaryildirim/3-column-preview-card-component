@@ -47,6 +47,10 @@ body {
     cursor: pointer;
 }
 
+.button:hover {
+    transition: all 0.2s;
+}
+
 .button-top {
     color: var(--cc-top-card-color);
 }
@@ -80,13 +84,18 @@ p {
         align-content: center;
         align-items: center;
     }
-
+    
     .content-card {
         display: flex;
         flex-direction: row;
         padding-left: 175px;
         padding-right: 175px;
-
+        
+    }
+    
+    .top-card, .middle-card, .bottom-card {
+        height: 400px;
+        width: auto;
     }
     
     .top-card {
@@ -96,10 +105,11 @@ p {
     .bottom-card {
         border-radius: 0px 10px 10px 0px;
     }
-
+    
     p {
         padding-top: 20px;
         padding-bottom: 100px;
+        width: auto;
+        height: 60px;
     }
-
 }

@@ -82,3 +82,5 @@ This challenge went very quickly, learned a lot from previous 2 challenges - sta
 [Flexboxfroggy](https://flexboxfroggy.com/)
 
 [Kevin Powell](https://www.youtube.com/KevinPowell)
+
+[Ken](https://www.frontendmentor.io/profile/kens-visuals)
